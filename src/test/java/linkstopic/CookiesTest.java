@@ -24,6 +24,7 @@ public class CookiesTest {
         driver.manage().window().maximize();
         driver.get("https://www.dummyticket.com/dummy-ticket-for-visa-application/");
         Thread.sleep(1000);
+
         Set<Cookie> cookies = driver.manage().getCookies();
         for (Cookie cookie : cookies) {
             System.out.println("Cookie Name: " + cookie.getName());
