@@ -1,3 +1,5 @@
+<h1> Cookies </h1>
+
 <h2>
 Working with cookies is crucial in web testing. 
 Cookies are small files stored by the browser that hold data about the user's interactions with websites.
